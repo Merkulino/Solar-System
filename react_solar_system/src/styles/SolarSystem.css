@@ -1,0 +1,15 @@
+.solar-system-component {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.planetCards {
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+.planet-card > img {
+  width: 100%;
+}
