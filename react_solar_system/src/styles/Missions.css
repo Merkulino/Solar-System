@@ -1,0 +1,35 @@
+.missions-container {
+  background-color: brown;
+  margin: 10px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.mission-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  margin: 10px;
+  display: inline-block;
+  flex-basis: 45%;
+  height: fit-content;
+  border: 2px black solid;
+  border-radius: 5pt;
+  text-align: justify;
+}
+
+.mission-card > p:first-child {
+  width: fit-content;
+  padding: 5px 20px;
+  font-size: larger;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
