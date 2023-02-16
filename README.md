@@ -6,6 +6,8 @@ Primeiro projeto utilizando React!
 
 ## Como foi o desenvolvimento
 
+O objetivo desse projeto foi praticar conhecimentos basicos sobre React, os componentes. 
+
 ## Tecnologias usadas
 
 ## Autor
