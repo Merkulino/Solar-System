@@ -27,6 +27,7 @@
   width: fit-content;
   padding: 5px 20px;
   font-size: larger;
+  font-weight: bold;
 }
 
 .cardInfo {
@@ -34,4 +35,34 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .missions-container {
+    width: 100%;
+    border-radius: 0%;
+    padding: 5px 0;
+    margin: 0;
+  }
+
+  .mission-card {
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .mission-card {
+    margin: 1%;
+    flex-basis: 90%;
+  }
+ 
+  /* txt */
+  .mission-card > p:first-child {
+    font-size: 1.2rem;
+  }
+
+  .cardInfo {
+    font-size: 0.9rem;
+  }
 }
